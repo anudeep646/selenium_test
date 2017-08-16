@@ -24,6 +24,6 @@ run do
   expect(@driver.title).to eql 'Walmart.com: Free 2-Day Shipping on Millions of Items'
 
   # Generate a screenshot of the main page
-  @driver.save_screenshot(File.join(Dir.pwd, "selium-docker-main-page.png"))
+  # @driver.save_screenshot(File.join(Dir.pwd, "selium-docker-main-page.png"))
   
   end
