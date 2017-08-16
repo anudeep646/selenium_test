@@ -3,11 +3,15 @@ sudo: required
 language: ruby
 services:
   - docker
+
+install:
+  - gem install selenium-webdriver 
+  - gem install rspec
   
 before_install:
 - docker pull selenium/standalone-chrome
 - docker run -d -p 4444:4444 selenium/standalone-chrome
 - docker ps -a
 
-# script:
-# - ruby ruby_testcase.rb
+script:
+- ruby ruby_testcase.rb
