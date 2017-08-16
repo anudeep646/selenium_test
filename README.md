@@ -1,1 +1,2 @@
-# This is to run selenium test case in docker container.
+# This is to a selenium test case wriiten in ruby and executed in docker container.
+
