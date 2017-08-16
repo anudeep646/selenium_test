@@ -21,7 +21,7 @@ end
 run do
   # Open the main page and check for the title
   @driver.get 'https://www.walmart.com/'
-  expect(@driver.title).to eql 'Walmart.com: Free 2-Day Shipping on Millions of Items'
+  expect(@driver.title).to eql 'Walmart.com: Free 2-Day Shipping on Millions of'
 
   # Generate a screenshot of the main page
   @driver.save_screenshot(File.join(Dir.pwd, "selium-docker-main-page.png"))
