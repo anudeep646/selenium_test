@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/anudeep646/selenium_test.svg?branch=master)](https://travis-ci.org/anudeep646/selenium_test)
 
-# This is a selenium test case wriiten in ruby and tested through chrome browser using selenium server on Docker container
+# This is a selenium test case written in ruby and tested through chrome browser using selenium server on Docker container
 
 Test scenario:
 
